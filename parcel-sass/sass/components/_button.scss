@@ -1,0 +1,41 @@
+.button {
+  margin: 0;
+  padding: 0 $element-margin;
+  height: 32px;
+  font-size: 12px;
+  text-transform: capitalize;
+  background: transparent;
+  border: none;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: all 150ms ease;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  &.primary {
+    background: $accent;
+    @if (lightness($accent) > 50) {
+      color: black; // Lighter backgorund, return dark color
+    } @else {
+      color: white; // Darker background, return light color
+    }
+
+    &:hover {
+      background: lighten($accent, 10%);
+    }
+  }
+
+  &.raised {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

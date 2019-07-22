@@ -1,0 +1,36 @@
+.header {
+  color: black;
+  padding: 0 $element-margin;
+  height: 64px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-title {
+    font-size: 16px;
+    font-weight: $weight-normal;
+  }
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: $weight-normal;
+  display: flex;
+  align-items: center;
+
+  .nav-item {
+    color: $light-grey;
+    text-decoration: none;
+
+    transition: color 150ms ease;
+
+    &:hover {
+      color: black;
+    }
+
+    &:not(:last-child) {
+      margin-right: $element-margin;
+    }
+  }
+}

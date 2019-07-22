@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  padding: $element-margin;
+  max-width: 1200px;
+
+  &.flex {
+    display: flex;
+  }
+
+  &.flex-row {
+    justify-content: space-between;
+
+    > * {
+      margin: 0 $element-margin;
+    }
+
+    > *:first-child {
+      margin-left: 0;
+    }
+
+    > *:last-child {
+      margin-right: 0;
+    }
+  }
+}

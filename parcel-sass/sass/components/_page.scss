@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font;
+  background: $lighter-grey;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}

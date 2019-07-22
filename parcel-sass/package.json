@@ -1,0 +1,10 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.7"
+  }
+}

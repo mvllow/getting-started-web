@@ -1,0 +1,15 @@
+/*
+    These are your variables. If you take a look at main.scss one directory up,
+    you'll notice it's imported before the other sass files, so these can be accessed
+    everywhere.
+*/
+
+$element-margin: 1rem;
+
+$font: "Lato", system-ui, sans-serif;
+$weight-normal: 400;
+$weight-bold: 700;
+
+$accent: palevioletred;
+$light-grey: #757575;
+$lighter-grey: #fafafa;

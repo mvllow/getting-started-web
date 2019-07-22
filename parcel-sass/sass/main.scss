@@ -1,0 +1,17 @@
+/* 
+    Notice how we are importing the names without the '_' and no file extension. Sass is smart!
+
+    The reason we use the '_' when naming the other files is to tell your
+    task runner (Parcel) they shouldn't be compiled on their own. AKA they are
+    intended to be imported from a file, like this one.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+@import "./lib/vars";
+
+@import "./components/page";
+@import "./components/header";
+@import "./components/container";
+@import "./components/card";
+@import "./components/button";
