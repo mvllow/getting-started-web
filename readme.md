@@ -15,9 +15,9 @@ To make our lives much easier, we will need a system package manager.
 
 ### Install system tools
 
-NodeJS gives us a javascript specific package manager called `npm`. Unlike `brew` this is for more project-specific tooling, rather than your computer/system. We will be using an **npm wrapper** called [yarn](https://yarnpkg.com/en/). Using yarn over npm is completely subjective. Yarn has just a few quality of life improvements over npm. Besides some syntaxical sugar, both will work just fine. They use the same exact registry (directory of packages)!
+NodeJS gives us a javascript specific package manager called `npm`. Unlike `brew` this is for more project-specific tooling, rather than your computer/system. We will be using an **npm wrapper** called [yarn](https://yarnpkg.com/en/). Using yarn over npm is completely subjective. Yarn has just a few quality of life improvements over npm. Besides some syntactical sugar, both will work just fine. They use the same exact registry (directory of packages)!
 
-> The `$` represents a command is written in your terminal or powershell
+> The `$` represents a command that is written in your terminal or powershell
 
 ```sh
 $ brew install node yarn
@@ -43,7 +43,7 @@ Sass is a css-preprocessor which simply means you write css with some [extra fea
 When dealing with this new `jsx` concept of sandboxing elements into reusable components, there are several options for styling. For example NextJS comes with [Styled JSX](https://github.com/zeit/styled-jsx) out of the box. The syntax looks like the following:
 
 ```css
-/* Asside from the first and last lines, it's normal css */
+/* Aside from the first and last lines, it's normal css */
 <style jsx>{`
     div {
         color: palevioletred;
