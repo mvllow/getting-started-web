@@ -38,7 +38,7 @@ Sass is a css-preprocessor which simply means you write css with some [extra fea
 
 ### Next with Styled Components (intermediate)
 
-[NextJS](https://nextjs.org) is a beautiful tool for writing and deploying [React](https://reactjs.org). If you are unfamiliar with React, it can be quite a change of pace from the usual website dev. Essentially, it allows html and css to be written inside of a `js` file. This process is known as `jsx` or JavaScript XML syntax. The benefit of this is that you are able to componentalise your code. A button could be include content, styles, and logic in a single file. Reusability is key when working with React. Define page layouts in one place, and use them everywhere.
+[NextJS](https://nextjs.org) is a beautiful tool for writing and deploying [React](https://reactjs.org). If you are unfamiliar with React, it can be quite a change of pace from the usual website dev. Essentially, it allows html and css to be written inside of a `js` file. This process is known as `jsx` or JavaScript XML syntax. The benefit of this is that you are able to componentalise your code. A button could include content, styles, and logic in a single file. Reusability is key when working with React. Define page layouts in one place, and use them everywhere.
 
 When dealing with this new `jsx` concept of sandboxing elements into reusable components, there are several options for styling. For example NextJS comes with [Styled JSX](https://github.com/zeit/styled-jsx) out of the box. The syntax looks like the following:
 
@@ -56,7 +56,7 @@ This method is strictly scoped, meaning the styles only affect the file they are
 
 For this guide, however, we will be using [Styled Components](https://www.styled-components.com).
 
-The main differences are syntax and scoping. Let's look at a barebones react components:
+The main differences are syntax and scoping. Let's view a barebones react components:
 
 ```js
 const HelloWorld = () => <div>Hello World</div>;
