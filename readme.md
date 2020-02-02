@@ -11,7 +11,7 @@ To make our lives much easier, we will need a system package manager.
 | System    | Package Manager                       | Shell Command |
 | --------- | ------------------------------------- | ------------- |
 | macOS     | [Homebrew](https://brew.sh)           | `brew`        |
-| Windows\* | [Chocolately](https://chocolatey.org) | `choco`       |
+| Windows   | [Chocolately](https://chocolatey.org) | `choco`       |
 
 ### Install system tools
 
